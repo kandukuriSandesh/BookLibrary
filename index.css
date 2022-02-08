@@ -1,0 +1,10 @@
+.item{
+    height: 20opx;
+    width: 300px;
+    margin: 30px;
+   
+}
+
+.container{
+    display: flex;
+}
