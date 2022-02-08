@@ -159,3 +159,9 @@ searchTxt.addEventListener("input",function(){
         
     
 })
+
+function resetStorage(){
+    localStorage.clear();
+    let tableBody = document.getElementById('tableBody');
+    tableBody.innerHTML="";
+}
